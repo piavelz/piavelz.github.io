@@ -328,7 +328,7 @@ header{
 .sec-about-me{
     height: 0;
     min-height: fit-content;
-    display: grid;
+    display: none;
     margin-top:20px ;
     place-items: center;
     grid-template-columns: 1fr 1fr;

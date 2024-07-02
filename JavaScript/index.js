@@ -43,6 +43,7 @@ document.addEventListener("scroll", function() {
             aboutMe.classList.remove("open");
             aboutMe.style.height="0px";
             aboutMe.style.padding="0px";
+            aboutMe.style.display="none";
             setTimeout(function(){
                 txtAboutMe.style.visibility="hidden";
                 imgAboutMe.style.visibility = "hidden";
@@ -53,6 +54,7 @@ document.addEventListener("scroll", function() {
         }else{
             btnAboutMe.innerHTML="ocultar <span class='material-symbols-outlined'>expand_less</span>";
             aboutMe.classList.add("open");
+            aboutMe.style.display="grid";
             aboutMe.style.height = "500px";
             aboutMe.style.padding = "20px";
             imgAboutMe.style.visibility = "visible";
