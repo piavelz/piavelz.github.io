@@ -255,7 +255,7 @@ header{
     display:inline-block;
     justify-self: right;
     align-self: center;
-    background-image:url(/img/ph-profile.png);
+    background-image:url(https://res.cloudinary.com/dnvpep1sn/image/upload/v1719892255/ph-profile_rlwbzk.png);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -291,13 +291,13 @@ header{
 }
 .link-linkedin{
     display: inline-block;
-    background-image: url(/img/icons/logotipo-linkedin.png);
+    background-image: url(https://res.cloudinary.com/dnvpep1sn/image/upload/v1719939803/icons-p/znqplmacmjfkjnqhpaxz.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .link-github{
-    background-image: url(/img/icons/logotipo-de-github.png);
+    background-image: url(https://res.cloudinary.com/dnvpep1sn/image/upload/v1719939803/icons-p/nobij8tdiivlwqlgk2tg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -661,7 +661,7 @@ button.next {
     height: 120px;
     margin: auto;
     display: block;
-    background-image:url(/img/icons/github.png);
+    background-image:url(https://res.cloudinary.com/dnvpep1sn/image/upload/v1719939802/icons-p/qsjqcjnd9ujivfntv0ap.png);
     background-position: center;
     background-size: cover;
 }
@@ -670,7 +670,7 @@ button.next {
     height: 120px;
     margin: auto;
     display: block;
-    background-image:url(/img/icons/whatsapp.png);
+    background-image:url(https://res.cloudinary.com/dnvpep1sn/image/upload/v1719939802/icons-p/owiayepgioppiq7h5xyd.png);
     background-position: center;
     background-size: cover;
     
@@ -680,7 +680,7 @@ button.next {
     height: 100px;
     margin: auto;
     display: block;
-    background-image:url(/img/icons/linkedin.png);
+    background-image:url(https://res.cloudinary.com/dnvpep1sn/image/upload/v1719939802/icons-p/tvl02y02rtpfxnqqab42.png);
     background-position: center;
     background-size: cover;
 }
@@ -755,6 +755,7 @@ footer{
         margin: 10px;
     }
     .sec-about-me{
+        display: none;
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
     }

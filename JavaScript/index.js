@@ -43,13 +43,14 @@ document.addEventListener("scroll", function() {
             aboutMe.classList.remove("open");
             aboutMe.style.height="0px";
             aboutMe.style.padding="0px";
-            aboutMe.style.display="none";
+            
             setTimeout(function(){
                 txtAboutMe.style.visibility="hidden";
                 imgAboutMe.style.visibility = "hidden";
                 imgAboutMe.style.opacity="0";
                 txtAboutMe.style.opacity="0";
             },500);
+            
     
         }else{
             btnAboutMe.innerHTML="ocultar <span class='material-symbols-outlined'>expand_less</span>";
