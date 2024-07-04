@@ -9,7 +9,7 @@ window.onscroll = function() {
 
 //funcion que cambia el color de las letras del navegador segun posicion de scroll
 document.addEventListener("scroll", function() {
-    let scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
+    let scrollPosition = document.documentElement.scrollTop+100 || document.body.scrollTop+100;
     let sections = document.querySelectorAll("section");
     sections.forEach(function(section) {
         let top = section.offsetTop;
@@ -56,16 +56,17 @@ document.addEventListener("scroll", function() {
             
     
         }else{
-            btnAboutMe.innerHTML="ocultar <span class='material-symbols-outlined'>expand_less</span>";
-            aboutMe.classList.add("open");
+            
             aboutMe.style.display="grid";
+            imgAboutMe.style.visibility = "visible";
             aboutMe.style.height = "500px";
             aboutMe.style.padding = "20px";
-            imgAboutMe.style.visibility = "visible";
+            btnAboutMe.innerHTML="ocultar <span class='material-symbols-outlined'>expand_less</span>";
+            aboutMe.classList.add("open");
             console.log("Tamaño ventana posicion "+ window.innerHeight);
             console.log("Tamaño funcion ScrollY"+ window.scrollY);
             //Scroll automatico al desplegar seccion "Sobre mi"
-            if(window.scrollY< 240 ){
+            if(window.scrollY< 200 ){
                 window.scrollBy({
                     top : window.innerHeight * 0.5,
                     behavior:"smooth"
