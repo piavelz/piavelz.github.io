@@ -312,7 +312,7 @@ header{
     bottom: -30px;
     font-size: 1rem;
     color: rgb(78, 78, 78);
-    background-color: red;
+    background-color:var(--nav);
     border: none;
     border-radius: 4px;
     opacity: 100%;

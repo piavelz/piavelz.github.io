@@ -50,6 +50,9 @@ document.addEventListener("scroll", function() {
                 imgAboutMe.style.opacity="0";
                 txtAboutMe.style.opacity="0";
             },500);
+            setTimeout(function(){
+                aboutMe.style.display="none";
+            },550)
             
     
         }else{
