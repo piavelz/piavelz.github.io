@@ -316,6 +316,7 @@ header{
     border: none;
     border-radius: 4px;
     opacity: 100%;
+    justify-self: center;
 
 }
 .btn-about-me:hover{
