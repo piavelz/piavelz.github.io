@@ -131,8 +131,9 @@ document.getElementById("btn-popup").addEventListener('click',function(){
     popup();
 })
 
+//descarga de CV
 document.getElementById("downloadCV").addEventListener('click', function(){
-    const urlCV= "../img/curriculum_piavelasquez.pdf"
+    const urlCV= "https://drive.google.com/uc?export=download&id=1U9xIQbxylHkvHKVuvT9-fatVEP3JZ8t8"
     const a = document.createElement('a');
 
     a.href = urlCV;
